@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <style>
+        .heading{
+          text-align : center;
+          color : black;
+          font-size:25px;
+          background:yellow;
+          padding:50px;
+        }
+      h1{
+        border:3px solid red;
+        padding: 20px;
+        background:#eeee;
+        font-family: cursive
+      }
+      .container{
+        max-height:100px;
+        width:auto;
+        margin-top:50px;
+      }
+      .row{
+        background:#c7deaf;
+        padding:100px
+      }
+      img{
+        border-radius:50%;
+        height:100px
+          
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Sales report</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-4">
+          <img height="60px" width="100px" src="https://lh3.googleusercontent.com/jN9tX6dCJ6_XL9E4K1KCO2Tuwe9_rYUbwv723eu6XGI0PWGLcPs0259VscOu249PPKKcU5AOXrq6JnleEaoK6K_JvZ2PY9lw3pMApzOpTQ=s660">
+        </div>
+        <div class="col col-md-4">
+          <img height="60px" width="100px" src="data:image/png;base64,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">
+        </div>
+        <div class="col col-md-4">
+          <img height="60px" width="100px"  src="https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4287%252C2788%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1041%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-04%252F8dbe8170-6b57-11e9-b756-b1ea4ce31677%26client%3Da1acac3e1b3290917d92%26signature%3D1be3a8272c43969b2e745cfb0ce34389ffdd341b&client=amp-blogside-v2&signature=88abf633d29445f34e8e97f948657de373374e84">
+      </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
